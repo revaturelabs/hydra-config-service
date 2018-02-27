@@ -11,6 +11,7 @@ public class ConfigServiceApplicationTests {
 
 	@Test
 	public void contextLoads() throws Exception {
+		assertThat(controller).isNotNull();
 	}
 
 }
