@@ -10,6 +10,7 @@ spring:
     name: config-service
   cloud:
     config: 
+      label: dev
       server: 
         git: 
           uri: https://gitlab.com/revature_hydra/hydra-configuration.git
